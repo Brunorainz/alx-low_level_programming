@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-int a
-long int b
-char d
-float f
-long long int c
+int a;
+long int b;
+char d;
+float f;
+long long int c;
 	
 printf("Size of char: %lu bytes(s)\n",
 (unsigned long)sizeof(d));
