@@ -2,17 +2,18 @@
 
 /**
  * _islower - a function that checks for for lower character
+ * @c: is the int that will use for the argument of the function
  *
- * Return: 1 if int c is lowercase, 0 if otherwise
+ * Return: 0
 */
 int _islower(int c)
 {
-if 
-(
-c >= '0' && c <= '2'
-);
-return (0);
-else
-return (1);
+	if 
+	(c >= 'a' && c <= 'z');
+	{
+		return (1);
+	}
+	else
+		return (1);
 }
 
