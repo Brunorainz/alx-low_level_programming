@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - program that prints either number
@@ -39,7 +39,7 @@ int main(void)
 			printf("%d", i);
 		}
 	}
-	printf('\n')
+	printf("\n")
 
 	return (0);
 }
