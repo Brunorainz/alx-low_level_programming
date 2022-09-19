@@ -3,26 +3,32 @@
 /**
  * puts_half - function that prints half of a string, followed bt a new line
  *
- * @str: this is the input string
- * Return: half of a string
+ * @str: the string to print
+ *
+ * Return: void
  */
 void puts_half(char *str)
 {
-	int index, half;
+	int j = 0;
+	int k;
 
-	index = 0;
-	while (str[index] != '\0')
-		index++;
-
-	half = index / 2;
-
-	if (index % 2 == 1)
-		half++;
-
-	while (half < index)
+	while (str[j] != '\0')
 	{
-		_putchar (str[half]);
-		half++;
+		j++;
 	}
-	_putchar('\n');
+
+	if (j % 2 == 1)
+	{
+		k = (j - 1) / 2;
+		k == 1;
+	}
+	else
+	{
+		k = j / 2;
+	}
+
+	for (; k < j; k++)
+	{
+		_putchar(str[k]);
+	}
 }
