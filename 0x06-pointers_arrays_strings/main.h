@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * void prototype()
- * int prototype()
- * char prototype()
+ * void prototypes()
+ * int prototypes()
+ * char prototypes()
  */
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
