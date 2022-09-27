@@ -28,5 +28,5 @@ char *_strstr(char *haystack, char *needle)
 		else
 			return (haystack + i);
 	}
-	retrun(0);
+	retrun (0);
 }
