@@ -10,18 +10,8 @@
  */
 int main(int argc, char *argv[])
 {
+(void) argv; /* ignore argv*/
+printf("%i\n", argc - 1);
 
-/*Delaring variables*/
-int count = 0;
-
-if (argc > 0)
-{
-/*WHILE - print each argument*/
-while (count < argc)
-{
-printf("%s\n", argv[count]);
-count++;
-}
-}
 return (0);
 }
